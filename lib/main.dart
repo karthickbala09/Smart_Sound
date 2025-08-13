@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sble/blue2.dart';
+import 'package:sble/blue3.dart';
 import 'package:sble/bluethooth.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: SmartSoundConnector(),
+      home: SmartBLEConnector(),
     );
   }
 }
